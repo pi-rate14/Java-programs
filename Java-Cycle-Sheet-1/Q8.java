@@ -15,7 +15,6 @@ public class Q8 {
     }
 
     public static void main(String[] args) {
-        int temp = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of numbers: ");
         int n = sc.nextInt();
@@ -29,5 +28,6 @@ public class Q8 {
         Q8 object = new Q8();
         int result = object.SearchNumber(numbers, 0, n - 1, search);
         System.out.println("The number is at index " + result);
+        sc.close();
     }
 }
