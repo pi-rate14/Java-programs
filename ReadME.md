@@ -48,4 +48,29 @@ withdraw, deposit and delete an account. </p>
 FloatValues to perform arithmetic operations on floating point numbers and IntegerValues on 
 integer numbers by implementing the interface. </p>
 <h3> Cycle Sheet 2 </h3>
+<p>1. Write a program to demonstrate the knowledge of students in Java Exception handling.
+Eg., Read the Register Number and Mobile Number of a student. If the Register Number does not contain exactly 9 characters or if the Mobile Number does not contain exactly 10 characters, throw an IllegalArgumentException.  If the Mobile Number contains any character other than a digit, raise a NumberFormatException. If the Register Number contains any character other than digits and alphabets, throw a NoSuchElementException. If they are valid, print the message ‘valid’ else ‘invalid’.</p>
+<p>2. Write a program to demonstrate the knowledge of students in Java Exception handling.
+Create a class by name Employee with members – Employee ID, Name and year of birth. The Employee ID is a string that contains the ID in the format year-designation-number. The year is represented with the last two digits. The designation is a single letter code - 'F' for faculty and 'S' for staff. The number is a 3 digit number.<br>		
+(Example:     81-F-112	79-S-254)<br>
+Write a program to read the employee details and validate the employee code. If the employee code is incorrect throw a user-defined exception "InvalidEmployeeCode" else create the Employee object and display the details of the employee.
+ </p>
+ <p>3. Write a program to demonstrate the knowledge of students in multithreading.
+Eg., Three students A, B and C of B.Tech-IT II year contest for the PR election. With the total strength of 240 students in II year, simulate the vote casting by generating 240 random numbers (1 for student A, 2 for B and 3 for C) and store them in an array. Create four threads to equally share the task of counting the number of votes cast for all the three candidates. Use synchronized method or synchronized block to update the three count variables. The main thread should receive the final vote count for all three contestants and hence decide the PR based on the values received.
+ </p>
+ <p>4. Create a User Defined Exception, Implement a remainder ClockAPP to the person saying Good Morning, Good Afternoon and Good Night by showing the current time. Write a code that assigns different values to the String variable timeofDay based on the value of time in hours. Raise remainder if time is 5 and 12, including 5 but not including 12, set timeofDay to “Morning, Have Fresh Vegetable Juice and then Sugar Tablet with mild walking”. Raise Exception, if time is between 12 and 17, including 12 but not including 17, set timeofDay as “its Day Time, after lunch have tablet to avoid sleep”. If time is between 17 and 18.30. Including 17 but not including 18.30, set timeofDays as “Hello, Good Evening have a dinner” and finally, if time variable does not satisfy all the above condition, set time as “Night, Go for sleep”.  </p>
 <h3> Cycle Sheet 3 </h3>
+<p>1. Write a program to demonstrate the knowledge of students in working with Java collection framework.<br>
+Eg., Assume only a maximum of 3 courses can be registered by a student for week end semester classes.  Create a hashmap ‘h1’ with ‘n’ key-value pairs where keys are the names of students and values are the courses registered by them. Create another hashmap ‘h2’ with ‘m’key-value pairs where keys are the names of courses offered for B.Tech-IT and values are the names of faculty handling the courses. Write appropriate code to<br>
+-	Add or remove a student from h1<br>
+-	Iterate over the maps and display the key-value pairs stored in them<br>
+-	Given a student name, fetch the names of all those who teach him/her.<br>
+For the student “B”, faculty should be displayed as 333 and 444.
+ </p>
+<p>2. Create a class tourist which has the data members name, state, famous_spot . Create a list of all the states in the south. Add the tourist places to the list based on state. Display the list in sorted order. Search a tourist spot from the list and display the details. Raise an exception if the details are not present. </p>
+<p>3. The following list gives the amount of rainfall (in cms) recorded at a particular place for 12 months.<br>
+10.2, 11.9, 8.0, 11.2, 10.8, 6.9, 8.2, 11.5, 10.4, 8.7, 7.8, 7.5.<br>
+Store these values in an queue. Find the average rainfall and display the count of the number of months in which the rainfall is more than the average.
+ </p>
+<p>4. The librarian would like to maintain a list which has the information about the book name, author, price, no_of_copies in the library. Max 5 books can be placed in a rack. Create a hashmap of the book object with the rack no.  Write a method search to read a book name and return its rack no. Write a method sort to display the book name in a particular rack.  </p>
+<p>5. An Industry collects the product sample measurements (product id, diameter, length, weight) for quality test and sends it to the quality assurance (QA) department in a serialized manner. The QA departments deserialize the samples and checks if the length=10cm, diameter=3cm, weight=100gms. The product id of defective samples are stored in a set.  The product id of correct samples are stored in  another sort. Sort the correct samples in list.                                                                                                                                                    </p>
